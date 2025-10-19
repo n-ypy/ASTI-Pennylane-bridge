@@ -1,13 +1,15 @@
 import { apiFetch } from './apiClient.ts';
+import { log } from './logger.ts';
 
 async function testMeEndpoint() {
     const clientId = 'default';
 
-    console.log('🚀 Testing /me request...');
+    log.info('🚀 Testing /me request...');
     const res = await apiFetch(clientId, '/me');
     const data = await res.json();
 
-    console.log('✅ Response from /me:', data);
+    log.info('✅ Response from /me:' + data);
 }
 
 await testMeEndpoint();
+
