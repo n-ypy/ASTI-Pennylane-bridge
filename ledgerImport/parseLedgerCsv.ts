@@ -1,4 +1,5 @@
 import { parse } from '@std/csv';
+import { log } from '../src/logger.ts';
 
 enum ChampEcritureGenerale {
     TypeLigne = 0,
@@ -15,7 +16,7 @@ enum ChampEcritureGenerale {
     MontantCredit,
 }
 
-interface EcritureCsv {
+export interface EcritureCsv {
     TypeLigne: string;
     Journal: string;
     Date: string;
@@ -34,11 +35,22 @@ interface EcritureCsv {
  * Parse le fichier CSV avec la stdlib Deno
  */
 export async function parseCsv(filePath: string): Promise<EcritureCsv[]> {
+    log.info(`[parseCsv] Démarrage du parsing du fichier : ${filePath}`);
+
+    log.info(`[parseCsv] Lecture du contenu du fichier`);
     const csvText = await Deno.readTextFile(filePath);
+    log.info(
+        `[parseCsv] Fichier lu. Taille du contenu : ${csvText.length} caractères.`,
+    );
+
+    log.info(`[parseCsv] Début du parsing des données CSV...`);
     const records = await parse(csvText, {
         separator: ';',
         skipFirstRow: false,
     });
+    log.info(
+        `[parseCsv] Parsing terminé. Nombre d'enregistrements bruts (lignes) : ${records.length}`,
+    );
 
     return records.map((row: string[]) => ({
         TypeLigne: row[ChampEcritureGenerale.TypeLigne],

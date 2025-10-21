@@ -226,3 +226,923 @@
 [21/10/2025 11:53:37] [ℹ️ INFO] 📡 Requête réponse: 200 OK
 [21/10/2025 11:53:37] [❌ ERROR] Compte comptable 707100 introuvable
 [21/10/2025 11:53:37] [❌ ERROR] Erreur import en échec... 
+[21/10/2025 14:02:29] [❌ ERROR] Argument du chemin du fichier CSV manquant, utilisation : monprogramme.exe ./fichier.csv
+[21/10/2025 14:07:13] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 14:07:13] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 14:07:13] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:13] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 14:07:14] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 14:07:14] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:14] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:14] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E ANNA
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:14] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:14] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E ANNA
+[21/10/2025 14:07:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:15] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E ANNA
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:15] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E WEB
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:16] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E WEB
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:16] [ℹ️ INFO] ✅ Écriture créée #undefined : AV 25E TOP
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:16] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:16] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:16] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:16] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:17] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:17] [ℹ️ INFO] ✅ Écriture créée #undefined : AV 25E TOP
+[21/10/2025 14:07:17] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:17] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:17] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:07:17] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:17] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:17] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:17] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:07:17] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:07:17] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:07:17] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:07:17] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:07:17] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:07:17] [ℹ️ INFO] ✅ Écriture créée #undefined : AV 25E TOP
+[21/10/2025 14:07:17] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 14:17:43] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 14:17:43] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 14:17:43] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:43] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 14:17:43] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 14:17:43] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:43] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:44] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:17:44] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E ANNA
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:17:44] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:17:44] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E ANNA
+[21/10/2025 14:17:44] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:44] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:44] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:17:45] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:45] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:45] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:45] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:17:45] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:45] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:45] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:45] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:17:45] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:17:45] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E ANNA
+[21/10/2025 14:17:45] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:45] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:45] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:17:45] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:45] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:45] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:45] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:17:45] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:17:45] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:45] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:45] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:17:45] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:17:45] [ℹ️ INFO] ✅ Écriture créée #undefined : FA 25E WEB
+[21/10/2025 14:17:45] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:17:45] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:17:45] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:04] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 14:18:04] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 14:18:04] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:04] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 14:18:04] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 14:18:04] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:04] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 14:18:05] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:05] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 14:18:05] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:05] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:05] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:05] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:05] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:05] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:05] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:05] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:05] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:05] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:05] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:05] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:05] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "FA 25E ANNA"
+[21/10/2025 14:18:05] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:05] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:05] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:05] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:05] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:05] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:05] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:06] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "FA 25E ANNA"
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:06] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "FA 25E ANNA"
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:06] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:06] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "FA 25E WEB"
+[21/10/2025 14:18:06] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:06] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:06] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:07] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "FA 25E WEB"
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:07] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "AV 25E TOP"
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:07] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:07] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "AV 25E TOP"
+[21/10/2025 14:18:07] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:07] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:07] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:18:08] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:08] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:08] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:08] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:18:08] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:18:08] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:18:08] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:18:08] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:18:08] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:18:08] [❌ ERROR] Échec de la création de l'écriture comptable. 
+            Statut: 422 Unprocessable Entity. 
+            Détails API: Entry lines are not balanced. 
+            Contexte: Journal 10821349, Libellé "AV 25E TOP"
+[21/10/2025 14:18:08] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 14:21:21] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 14:21:21] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 14:21:21] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:21] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 14:21:21] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 14:21:21] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:21] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 14:21:21] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:21] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 14:21:21] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:21] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:21] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:21] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:21] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:21] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:21] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:22] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "FA 25E ANNA" |
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:22] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "FA 25E ANNA" |
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:22] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:22] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:22] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:22] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:23] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "FA 25E ANNA" |
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:23] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "FA 25E WEB" |
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:23] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "FA 25E WEB" |
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:23] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:23] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:23] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:23] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:24] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:24] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "AV 25E TOP" |
+[21/10/2025 14:21:24] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:24] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:24] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:24] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:24] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:24] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:24] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:24] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:24] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:24] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:24] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:24] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:24] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "AV 25E TOP" |
+[21/10/2025 14:21:24] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:24] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:24] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 14:21:24] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:24] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:24] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:24] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 14:21:25] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 14:21:25] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 14:21:25] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 14:21:25] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 14:21:25] [ℹ️ INFO] 📡 Requête réponse: 422 Unprocessable Entity
+[21/10/2025 14:21:25] [❌ ERROR] Échec de la création de l'écriture comptable. | STATUT: 422 Unprocessable Entity | DÉTAILS API: Entry lines are not balanced | CONTEXTE: Journal 10821349, Libellé "AV 25E TOP" |
+[21/10/2025 14:21:25] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 15:02:08] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 15:02:08] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 15:02:08] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:08] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 15:02:08] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 15:02:08] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:08] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:09] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:09] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:09] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:09] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:02:10] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:10] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:10] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:10] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:02:11] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:02:11] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:02:11] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:02:11] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 15:02:11] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 15:02:12] [ℹ️ INFO] 📡 Requête réponse: 201 Created
+[21/10/2025 15:02:12] [ℹ️ INFO] ✅ Écriture créée #2925948917001 : FA 25E ANNA
+[21/10/2025 15:20:48] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 15:20:48] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 15:20:48] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:48] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 15:20:49] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 15:20:49] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Démarrage de l'importation du fichier : ./test.csv
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Phase 1: Parsing du fichier CSV...
+[21/10/2025 15:20:49] [ℹ️ INFO] [parseCsv] Démarrage du parsing du fichier : ./test.csv
+[21/10/2025 15:20:49] [ℹ️ INFO] [parseCsv] Lecture du contenu du fichier
+[21/10/2025 15:20:49] [ℹ️ INFO] [parseCsv] Fichier lu. Taille du contenu : 603 caractères.
+[21/10/2025 15:20:49] [ℹ️ INFO] [parseCsv] Début du parsing des données CSV...
+[21/10/2025 15:20:49] [ℹ️ INFO] [parseCsv] Parsing terminé. Nombre d'enregistrements bruts (lignes) : 8
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Phase 2: Traitement et regroupement des lignes...
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 1: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 1: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 2: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 2: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 3: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 3: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:49] [ℹ️ INFO] [importLedgerFile] Ligne 4: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 4: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 5: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 5: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 6: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 6: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 7: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 7: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:50] [ℹ️ INFO] [importLedgerFile] Ligne 8: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:20:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:20:51] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:51] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:51] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:51] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:20:51] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:20:51] [ℹ️ INFO] [importLedgerFile] Ligne 8: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:20:51] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:20:51] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:20:51] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 15:20:51] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 15:20:51] [ℹ️ INFO] 📡 Requête réponse: 201 Created
+[21/10/2025 15:20:51] [ℹ️ INFO] ✅ Écriture créée #2926198719001 : FA 25E ANNA
+[21/10/2025 15:46:48] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 15:46:48] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 15:46:48] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:48] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 15:46:48] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 15:46:48] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:48] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 15:46:48] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:48] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 15:46:48] [ℹ️ INFO] [importLedgerFile] Démarrage de l'importation du fichier : ./test.csv
+[21/10/2025 15:46:48] [ℹ️ INFO] [importLedgerFile] Phase 1: Parsing du fichier CSV...
+[21/10/2025 15:46:48] [ℹ️ INFO] [parseCsv] Démarrage du parsing du fichier : ./test.csv
+[21/10/2025 15:46:48] [ℹ️ INFO] [parseCsv] Lecture du contenu du fichier
+[21/10/2025 15:46:48] [ℹ️ INFO] [parseCsv] Fichier lu. Taille du contenu : 603 caractères.
+[21/10/2025 15:46:48] [ℹ️ INFO] [parseCsv] Début du parsing des données CSV...
+[21/10/2025 15:46:48] [ℹ️ INFO] [parseCsv] Parsing terminé. Nombre d'enregistrements bruts (lignes) : 8
+[21/10/2025 15:46:48] [ℹ️ INFO] [importLedgerFile] Phase 2: Traitement et regroupement des lignes...
+[21/10/2025 15:46:48] [ℹ️ INFO] [importLedgerFile] Ligne 1: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:48] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:48] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:48] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Ligne 1: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Création nouvelle écriture: Journal=VTE (10821349) à la date 15/12/2024
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Ligne 2: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Ligne 2: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Ligne 3: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Ligne 3: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:49] [ℹ️ INFO] [importLedgerFile] Ligne 4: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:49] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:49] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:49] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:49] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 4: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 5: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 5: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 6: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 6: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 7: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 7: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:50] [ℹ️ INFO] [importLedgerFile] Ligne 8: Traitement de la ligne avec Journal='VTE' et Compte='411100355'
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:46:50] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:50] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:50] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:50] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:46:51] [ℹ️ INFO] 📡 Requête réponse: 200 OK
+[21/10/2025 15:46:51] [ℹ️ INFO] [importLedgerFile] Ligne 8: Journal ID=10821349, Compte ID=1276518202
+[21/10/2025 15:46:51] [ℹ️ INFO] [importLedgerFile] Dernière ligne du fichier. Envoi de l'écriture...
+[21/10/2025 15:46:51] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:46:51] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:46:51] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 15:46:51] [ℹ️ INFO] 📡 Requête réponse: 201 Created
+[21/10/2025 15:46:51] [ℹ️ INFO] ✅ Écriture créée #2926620029001 (IYAKIDFE1J): FA 25E ANNA
+[21/10/2025 15:46:51] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 15:53:59] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 15:53:59] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 15:53:59] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:53:59] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 15:53:59] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 15:53:59] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:53:59] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 15:53:59] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:53:59] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 15:53:59] [ℹ️ INFO] [importLedgerFile] Démarrage de l'importation du fichier : ./test.csv
+[21/10/2025 15:53:59] [ℹ️ INFO] [importLedgerFile] Phase 1: Parsing du fichier CSV...
+[21/10/2025 15:53:59] [ℹ️ INFO] [parseCsv] Démarrage du parsing du fichier : ./test.csv
+[21/10/2025 15:53:59] [ℹ️ INFO] [parseCsv] Lecture du contenu du fichier
+[21/10/2025 15:53:59] [ℹ️ INFO] [parseCsv] Fichier lu. Taille du contenu : 603 caractères.
+[21/10/2025 15:53:59] [ℹ️ INFO] [parseCsv] Début du parsing des données CSV...
+[21/10/2025 15:53:59] [ℹ️ INFO] [parseCsv] Parsing terminé. Nombre d'enregistrements bruts (lignes) : 8
+[21/10/2025 15:53:59] [ℹ️ INFO] [importLedgerFile] Phase 2: Traitement et regroupement des lignes...
+[21/10/2025 15:53:59] [ℹ️ INFO] [importLedgerFile] Ligne 1: Début traitement...'
+[21/10/2025 15:53:59] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:53:59] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:53:59] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] [importLedgerFile] Création nouvelle écriture: Journal=VTE (10821349) à la date 15/12/2024
+[21/10/2025 15:54:00] [ℹ️ INFO] [importLedgerFile] Ligne 2: Début traitement...'
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] [importLedgerFile] Ligne 3: Début traitement...'
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] [importLedgerFile] Ligne 4: Début traitement...'
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:00] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:00] [ℹ️ INFO] [importLedgerFile] Ligne 5: Début traitement...'
+[21/10/2025 15:54:00] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:00] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:00] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] [importLedgerFile] Ligne 6: Début traitement...'
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] [importLedgerFile] Ligne 7: Début traitement...'
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] [importLedgerFile] Ligne 8: Début traitement...'
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 15:54:01] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:01] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:01] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:01] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 15:54:02] [ℹ️ INFO] 📡 Requête réponse: 200 OK [object ReadableStream]
+[21/10/2025 15:54:02] [ℹ️ INFO] [importLedgerFile] Dernière ligne du fichier. Envoi de l'écriture...
+[21/10/2025 15:54:02] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 15:54:02] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 15:54:02] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 15:54:02] [ℹ️ INFO] 📡 Requête réponse: 201 Created [object ReadableStream]
+[21/10/2025 15:54:02] [ℹ️ INFO] ✅ Écriture créée #2926726634001 (DUBTMOPFRO): FA 25E ANNA
+[21/10/2025 15:54:02] [ℹ️ INFO] ✅ Import terminé !
+[21/10/2025 16:00:36] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 16:00:36] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 16:00:36] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:00:36] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 16:00:37] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 16:00:37] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:00:37] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 16:00:37] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 16:02:12] [ℹ️ INFO] 🚀 Démarrage
+[21/10/2025 16:02:12] [ℹ️ INFO] Test de la requête /me...
+[21/10/2025 16:02:12] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:12] [ℹ️ INFO] Actualisation du jeton d'accès pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts...
+[21/10/2025 16:02:13] [ℹ️ INFO] Jeton actualisé pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts, expire dans 86400s
+[21/10/2025 16:02:13] [ℹ️ INFO] Sauvegarde du jeton pour client: FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:13] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/me
+[21/10/2025 16:02:13] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 16:02:13] [ℹ️ INFO] Réponse de /me : {"user":{"id":485479,"first_name":"Pierre","last_name":"Girou","email":"p.girou@texaswin.fr","locale":"fr"},"company":{"id":164848,"name":"Sandbox Comptabilité d’engagement - p.girou@texaswin.fr","reg_no":"sandbox-164848"}}
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Démarrage de l'importation du fichier : ./test.csv
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Phase 1: Parsing du fichier CSV...
+[21/10/2025 16:02:13] [ℹ️ INFO] [parseCsv] Démarrage du parsing du fichier : ./test.csv
+[21/10/2025 16:02:13] [ℹ️ INFO] [parseCsv] Lecture du contenu du fichier
+[21/10/2025 16:02:13] [ℹ️ INFO] [parseCsv] Fichier lu. Taille du contenu : 603 caractères.
+[21/10/2025 16:02:13] [ℹ️ INFO] [parseCsv] Début du parsing des données CSV...
+[21/10/2025 16:02:13] [ℹ️ INFO] [parseCsv] Parsing terminé. Nombre d'enregistrements bruts (lignes) : 8
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Phase 2: Traitement et regroupement des lignes...
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Ligne 1: Début traitement...'
+[21/10/2025 16:02:13] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:13] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:13] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:13] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:13] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:13] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:13] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:13] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Création nouvelle écriture: Journal=VTE (10821349) à la date 15/12/2024
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Ligne 2: Début traitement...'
+[21/10/2025 16:02:13] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:13] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:13] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:13] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:13] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:13] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:13] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:13] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:13] [ℹ️ INFO] [importLedgerFile] Ligne 3: Début traitement...'
+[21/10/2025 16:02:13] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:13] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:13] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] [importLedgerFile] Ligne 4: Début traitement...'
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] [importLedgerFile] Ligne 5: Début traitement...'
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] [importLedgerFile] Ligne 6: Début traitement...'
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:14] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:14] [ℹ️ INFO] [importLedgerFile] Ligne 7: Début traitement...'
+[21/10/2025 16:02:14] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:14] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:14] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:15] [ℹ️ INFO] [importLedgerFile] Ligne 8: Début traitement...'
+[21/10/2025 16:02:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/journals?per_page=100
+[21/10/2025 16:02:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":100,"total_items":10,"items":[{"code":"VT","id":7453672,"label":"Journal de vente"},{"code":"HA","id":7453673,"label":"Journal d’achat"},{"code":"OD","id":7453674,"label":"Journal des opérations diverses"},{"code":"TVA","id":7453675,"label":"Journal de TVA"},{"code":"RT","id":7453676,"label":"Journal des récupération de TVA"},{"code":"AN","id":7453677,"label":"Journal des à-nouveaux"},{"code":"SIT","id":7453678,"label":"Journal de situation"},{"code":"PA","id":7453679,"label":"Journal de Paie"},{"code":"EMP","id":7453680,"label":"Emprunts"},{"code":"VTE","id":10821349,"label":"Journal de TEST"}]}
+[21/10/2025 16:02:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:15] [ℹ️ INFO] 🌍 Requête: GET https://app.pennylane.com/api/external/v2/ledger_accounts?filter=[{"field":"number","operator":"eq","value":"411100355"}]
+[21/10/2025 16:02:15] [ℹ️ INFO] 📡 Requête réponse: 200 OK {"total_pages":1,"current_page":1,"per_page":20,"total_items":1,"items":[{"id":1276518202,"number":"411100355","label":"Claude Touchant","vat_rate":"any","country_alpha2":"any","enabled":true}]}
+[21/10/2025 16:02:15] [ℹ️ INFO] [importLedgerFile] Dernière ligne du fichier. Envoi de l'écriture...
+[21/10/2025 16:02:15] [ℹ️ INFO] Récupération du jeton d'accès...
+[21/10/2025 16:02:15] [ℹ️ INFO] Utilisation du jeton d'accès mis en cache pour FIFGnWi0rYl1khpvmA3eDZsDXFZ5idxMsY2YSI7lQts
+[21/10/2025 16:02:15] [ℹ️ INFO] 🌍 Requête: POST https://app.pennylane.com/api/external/v2/ledger_entries
+[21/10/2025 16:02:15] [ℹ️ INFO] 📡 Requête réponse: 201 Created {"label":"FA 25E ANNA","date":"2024-12-15","journal_id":10821349,"id":2926871041001,"piece_number":"XJXMRT7NFN","ledger_attachment_id":null,"ledger_attachment_filename":null,"ledger_entry_lines":[{"id":12312230017,"debit":"100.0","credit":"0.0","label":"FA 25E ANNA","ledger_account_id":1276518202},{"id":12312230019,"debit":"20.0","credit":"0.0","label":"FA 25E ANNA","ledger_account_id":1276518202},{"id":12312230020,"debit":"0.0","credit":"120.0","label":"FA 25E ANNA","ledger_account_id":1276518202},{"id":12312230021,"debit":"47.26","credit":"0.0","label":"FA 25E WEB","ledger_account_id":1276518202},{"id":12312230022,"debit":"0.0","credit":"47.26","label":"FA 25E WEB","ledger_account_id":1276518202},{"id":12312230023,"debit":"0.0","credit":"50.0","label":"AV 25E TOP","ledger_account_id":1276518202},{"id":12312230024,"debit":"0.0","credit":"10.0","label":"AV 25E TOP","ledger_account_id":1276518202},{"id":12312230025,"debit":"60.0","credit":"0.0","label":"AV 25E TOP","ledger_account_id":1276518202}]}
+[21/10/2025 16:02:15] [ℹ️ INFO] ✅ Écriture créée #2926871041001 (XJXMRT7NFN): FA 25E ANNA
+[21/10/2025 16:02:15] [ℹ️ INFO] ✅ Import terminé !
