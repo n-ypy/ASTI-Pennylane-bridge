@@ -1,21 +1,28 @@
-import { PENNYLANE_CLIENT_ID, PENNYLANE_CLIENT_SECRET, PENNYLANE_TOKEN_URL } from './config.ts';
+import { PENNYLANE_TOKEN_URL } from './config.ts';
 import { getClient, saveClient } from './db.ts';
-export async function getAccessTokenForClient(clientId: string): Promise<string> {
-    const client = getClient(clientId);
+import { LoggedError } from './LoggedError.ts';
+import { log } from './logger.ts';
+
+export async function getAccessToken(): Promise<string> {
+    log.info("Récupération du jeton d'accès...");
+
+    const client = getClient();
     if (!client) {
-        throw new Error(`❌ No client found for ID: ${clientId}`);
+        throw new LoggedError(`Pas de client trouvé :${client}`);
     }
+
     const now = Date.now();
     if (client.accessToken && now < client.expiresAt) {
-        console.log(`✅ Using cached access token for ${clientId}`);
+        log.info(`Utilisation du jeton d'accès mis en cache pour ${client.id}`);
         return client.accessToken;
     }
-    console.log(`🔄 Refreshing access token for ${clientId}...`);
+
+    log.info(`Actualisation du jeton d'accès pour ${client.id}...`);
     const body = new URLSearchParams({
         grant_type: 'refresh_token',
         refresh_token: client.refreshToken,
-        client_id: PENNYLANE_CLIENT_ID,
-        client_secret: PENNYLANE_CLIENT_SECRET,
+        client_id: client.id,
+        client_secret: client.secret,
     });
     const res = await fetch(PENNYLANE_TOKEN_URL, {
         method: 'POST',
@@ -24,16 +31,21 @@ export async function getAccessTokenForClient(clientId: string): Promise<string>
     });
     if (!res.ok) {
         const err = await res.text();
-        console.error(`❌ Failed to refresh token for ${clientId}:`, err);
-        throw new Error(`Token refresh failed for ${clientId}`);
+        throw new LoggedError(
+            `Échec de l'actualisation du jeton pour ${client.id}: ${res.status} ${res.statusText} ${err}`,
+        );
     }
     const data = await res.json();
-    console.log(`✅ Token refreshed for ${clientId}, expires in ${data.expires_in}s`);
+    log.info(
+        `Jeton actualisé pour ${client.id}, expire dans ${data.expires_in}s`,
+    );
+
     saveClient({
         ...client,
         accessToken: data.access_token,
         refreshToken: data.refresh_token ?? client.refreshToken,
         expiresAt: now + data.expires_in * 1000,
     });
+
     return data.access_token;
 }
