@@ -8,6 +8,8 @@ log.info('🚀 Démarrage');
 //ledger_account request once / proof number
 //make config steps explicit in main.ts file
 //one log file / csv file
+//frontend for manual execution ?
+//display a window with explicit error message when error thrown
 
 const filePath = getLedgerFilePath();
 
