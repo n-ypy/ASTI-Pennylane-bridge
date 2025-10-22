@@ -38,13 +38,27 @@ export async function importLedgerFile(filePath: string) {
         log.info(
             '[importLedgerFile] Phase 2: Traitement et regroupement des lignes...',
         );
+        let numPiece;
         for (let index = 0; index < rows.length; index++) {
             const row: EcritureCsv = rows[index];
-            const numPiece = row.NumPiece;
+
+            if (numPiece != row.NumPiece) {
+                if (ledgerEntry.ledger_entry_lines.length > 0) {
+                    log.info(
+                        `[importLedgerFile] Changement de pièce détecté. Envoi de l'écriture précédente (${ledgerEntry.ledger_entry_lines.length} lignes) pour la pièce ${numPiece}...`,
+                    );
+                    await postLedgerEntry(ledgerEntry);
+                }
+                log.info(
+                    `[importLedgerFile] Nouvelle pièce numéro: ${row.NumPiece}`,
+                );
+                numPiece = row.NumPiece;
+                ledgerEntry.ledger_entry_lines = [];
+            }
 
             const lineNumber = index + 1;
             log.info(
-                `[importLedgerFile] Ligne ${lineNumber}: Début traitement...'`,
+                `[importLedgerFile] Ligne ${lineNumber}: Début traitement...`,
             );
             const journalId = await getJournalId(row.Journal);
             const accountId = await getLedgerAccountId(row.NumCompteGeneral);
@@ -56,21 +70,16 @@ export async function importLedgerFile(filePath: string) {
                 credit: normalizeAmount(row.MontantCredit),
             };
 
-            if (ledgerEntry.journal_id !== journalId) {
-                if (ledgerEntry.ledger_entry_lines.length > 0) {
-                    log.info(
-                        `[importLedgerFile] Changement de journal détecté. Envoi de l'écriture précédente (${ledgerEntry.ledger_entry_lines.length} lignes) pour le Journal ID ${ledgerEntry.journal_id}...`,
-                    );
-                    await postLedgerEntry(ledgerEntry);
-                }
-                log.info(
-                    `[importLedgerFile] Création nouvelle écriture: Journal=${row.Journal} (${journalId}) à la date ${row.Date}`,
-                );
-                ledgerEntry.date = formatDate(row.Date);
-                ledgerEntry.label = row.Libelle;
-                ledgerEntry.journal_id = journalId;
-            }
+            //Mouai, pas sûr: est-ce que la date/libelle/journal même pour chaque ligne d'une pièce comptable ?
+            //peut-être throw si ils changent ?
+            ledgerEntry.date = formatDate(row.Date);
+            ledgerEntry.label = row.Libelle;
+            ledgerEntry.journal_id = journalId;
+            //
             ledgerEntry.ledger_entry_lines.push(line);
+            log.info(
+                `[importLedgerFile] Ligne ${lineNumber}: Fin traitement - Date: ${ledgerEntry.date}, Label: ${ledgerEntry.label}, Journal_id: ${ledgerEntry.journal_id}, Ligne: ${JSON.stringify(line)}`,
+            );
 
             if (index == rows.length - 1) {
                 log.info(

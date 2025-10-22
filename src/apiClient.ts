@@ -19,8 +19,8 @@ export async function apiFetch(path: string, init: RequestInit = {}) {
         },
     });
 
+    //FOR LOGGING PURPOSE
     let body = '';
-
     if (res.body) {
         try {
             const jsonBody = await res.clone().json();
@@ -35,7 +35,9 @@ export async function apiFetch(path: string, init: RequestInit = {}) {
         }
     }
 
-    log.info(`📡 Requête réponse: ${res.status} ${res.statusText} ${body}`);
+    const logMessage = `📡 Requête réponse: ${res.status} ${res.statusText} ${body}`;
+    res.ok ? log.info(logMessage) : log.warn(logMessage);
+    //----------------------
 
     return res;
 }

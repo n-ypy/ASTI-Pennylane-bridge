@@ -14,21 +14,16 @@ export const PENNYLANE_TOKEN_URL = 'https://app.pennylane.com/oauth/token';
 export const PENNYLANE_API_URL = 'https://app.pennylane.com/api/external/v2';
 
 const configFile: ConfigFile = await readConfigFile(TOKEN_FILE);
+checkConfigFile(configFile);
 export const PENNYLANE_CLIENT_ID = configFile.PENNYLANE_CLIENT_ID;
 export const PENNYLANE_CLIENT_SECRET = configFile.PENNYLANE_CLIENT_SECRET;
 export const PENNYLANE_REFRESH_TOKEN = configFile.PENNYLANE_REFRESH_TOKEN;
 
-if (
-    !PENNYLANE_REFRESH_TOKEN ||
-    !PENNYLANE_CLIENT_SECRET ||
-    !PENNYLANE_CLIENT_ID
-) {
-    const errorMsg = buildErrorMsg();
-    log.error(errorMsg);
-    Deno.exit(1);
-}
+function checkConfigFile(configFile: ConfigFile) {
+    const PENNYLANE_CLIENT_ID = configFile.PENNYLANE_CLIENT_ID;
+    const PENNYLANE_CLIENT_SECRET = configFile.PENNYLANE_CLIENT_SECRET;
+    const PENNYLANE_REFRESH_TOKEN = configFile.PENNYLANE_REFRESH_TOKEN;
 
-function buildErrorMsg(): string {
     const missing = [];
 
     if (!PENNYLANE_CLIENT_ID)
@@ -38,7 +33,11 @@ function buildErrorMsg(): string {
     if (!PENNYLANE_REFRESH_TOKEN)
         missing.push(Object.keys({ PENNYLANE_REFRESH_TOKEN })[0]);
 
-    return `${missing.join(' ')} manquants dans le fichier de configuration.`;
+    if (missing.length) {
+        const errorMsg = `${missing.join(' ')} manquants dans le fichier de configuration.`;
+        log.error(errorMsg);
+        Deno.exit(1);
+    }
 }
 
 async function readConfigFile(path: string): Promise<ConfigFile> {
